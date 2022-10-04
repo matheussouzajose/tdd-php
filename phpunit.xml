@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php" >./app</directory>
+    </include>
+  </coverage>
+  <testsuites>
+    <testsuite name="The project's test suite">
+      <directory>./tests/unit</directory>
+    </testsuite>
+    <testsuite name="The project's test suite">
+      <directory>./tests/integration</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

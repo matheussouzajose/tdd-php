@@ -1,0 +1,23 @@
+{
+  "name": "matheussouzajose/tdd-php",
+  "description": "TDD com PHP",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Source\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Matheus Souza Jose",
+      "email": "matheus.jose@aluno.faculdadeimpacta.com.br"
+    }
+  ],
+  "scripts": {
+    "test": "phpunit",
+    "test-verbose": "phpunit --debug --verbose"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}

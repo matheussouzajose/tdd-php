@@ -1,4 +1,3 @@
-### Active Record
+### TDD com PHP
 
-Example about ORM Active Record with php
-# tdd-php
+- Iniciando estudos de TDD com PHP usando PHPUnit;
